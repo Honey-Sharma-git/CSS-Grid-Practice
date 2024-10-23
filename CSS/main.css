@@ -3,8 +3,18 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* outline: 2px red solid; */
 }
 /*Utility classes begin here*/
+.clear {
+  clear: both;
+}
+.m1 {
+  margin: 1rem;
+}
+.p1 {
+  padding: 1rem;
+}
 .blackText {
   color: black;
 }
@@ -25,3 +35,21 @@
 }
 
 /*Utility classes end here*/
+body {
+  padding: 1rem;
+}
+.testimonials {
+  border-radius: 8px;
+  margin: 1rem;
+  padding: 1rem;
+}
+.username img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  float: left;
+  margin-right:1rem;
+}
+figcaption a {
+  text-decoration: none;
+}
