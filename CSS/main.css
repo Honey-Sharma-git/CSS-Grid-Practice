@@ -1,0 +1,27 @@
+/*CSS Reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*Utility classes begin here*/
+.blackText {
+  color: black;
+}
+.whiteText {
+  color: white;
+}
+.purpleBg {
+  background-color: purple;
+}
+.whiteBg {
+  background-color: white;
+}
+.darkblueBg {
+  background-color: darkslateblue;
+}
+.darkgrayBg {
+  background-color: darkslategrey;
+}
+
+/*Utility classes end here*/
