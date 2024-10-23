@@ -37,6 +37,7 @@
 /*Utility classes end here*/
 body {
   padding: 1rem;
+  background-color: beige;
 }
 .testimonials {
   border-radius: 8px;
@@ -48,8 +49,16 @@ body {
   width: 50px;
   border-radius: 50%;
   float: left;
-  margin-right:1rem;
+  margin-right: 1rem;
 }
 figcaption a {
   text-decoration: none;
+}
+.testimonials:first-child {
+  background-image: url("../Images/double-quote-icon.png");
+  background-repeat: no-repeat;
+  background-size: 130px 130px;
+  background-attachment: scroll;
+  background-position-y: top;
+  background-position-x: 700px;
 }
